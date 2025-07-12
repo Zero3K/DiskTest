@@ -35,3 +35,6 @@ bld/
 # Test files
 TEST$$$.FIL
 *.tmp
+
+# Build scripts output
+*.bat.log

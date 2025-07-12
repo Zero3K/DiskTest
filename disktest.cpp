@@ -552,7 +552,7 @@ long PatternTest(std::vector<unsigned short>& writeBlock, std::vector<unsigned s
             if (next > currentDot) {
                 while (currentDot < next) {
                     if (errCount == 0) {
-                        printf("√"); // Success mark
+                        printf("*"); // Success mark (using * instead of special characters)
                     } else {
                         printf("!");  // Error mark
                     }
